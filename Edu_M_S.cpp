@@ -527,10 +527,6 @@ void submitSolution(int stuIndex, int choice)
 
 
 
-void gradesReport()
-{
-
-}
 
 
 
@@ -541,44 +537,6 @@ void gradesReport()
 
 
 
-
-
-void listCourses()
-{
-
-	Course course1 ={"Prog 1","CS111", "Dr.Samy", {001, 002, 005, 004}};
-	Course course2 ={"Prog 2","CS112", "Dr.Morad", {001, 002, 003, 005}};
-	Course course3 ={"Math 1","CS123", "Dr.Ashraf", {005, 002, 003, 004}};
-	Course course4 ={"Math 2","CS333", "Dr.Hani", {001, 002, 003, 005}};
-	Course course5 ={"Prog 3","CS136", "Dr.Sayed", {001, 002, 003, 005}};
-	Course course6 ={"Stat 1","CS240", "Dr.Hussien", {001, 002, 005, 004}};
-	Course course7 ={"Stat 2","CS350", "Dr.Morad", {001, 002, 3000, 4000}};
-
-}
-
-
-void listDoctors()
-{
-	Doctor doctor1 = {"Ali", 0};
-	Doctor doctor2 = {"Mostafa", 0};
-	Doctor doctor3 = {"Hani", 1, "CS333"};
-	Doctor doctor4 = {"Mohamed", 0};
-	Doctor doctor5 = {"Ashraf", 1, "CS123"};
-	Doctor doctor6 = {"Samy", 1, "CS111"};
-	Doctor doctor7 = {"Morad", 2, "CS112 CS350"};
-	Doctor doctor8 = {"Sayed", 1, "CS136"};
-	Doctor doctor9 = {"Hussien", 1, "CS240"};
-}
-
-//void listStudents()
-//{
-//	Student student1 ={"Hussien Samy", 001, 6, {"CS111", "CS112", "CS333", "CS136", "CS240","CS350"}};
-//	Student student2 ={"Ashraf Sayed", 002, 7, {"CS111", "CS112", "CS333", "CS136", "CS240","CS350", "CS123"}};
-//	Student student3 ={"Mostafa Hussien", 003, 4, {"CS112", "CS123", "CS333", "CS136" }};
-//	Student student4 ={"Ali Mohamed", 004, 6, {"CS111", "CS112", "CS333", "CS136","CS123","CS350"}};
-//	Student student5 ={"Hani Sayed", 005, 6, {"CS111", "CS112", "CS333", "CS136","CS123","CS240"}};
-//
-//}
 
 
 
